@@ -30,11 +30,12 @@ function HomeCard(){
         <Card className="text-black" style={{height:"200px",width:"100%" }}>
            <Card.Body style={{margin:"0",padding:"0",}}>
                <Card.Img src={toolsPic} style={{opacity:".9",margin:"0",objectFit:"cover", height:"100%"}}/>
-               <Card.ImgOverlay >
+              <a href="/service">  <Card.ImgOverlay >
                 <Card.Text style={{textAlign:"center", fontSize:"xx-large", color:"white",margin:"auto"}}>
                     Service
                 </Card.Text> 
                 </Card.ImgOverlay>
+                </a>
            </Card.Body>
         </Card>
     </Row>
